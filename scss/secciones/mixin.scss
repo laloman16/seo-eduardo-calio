@@ -1,0 +1,12 @@
+
+body{
+    background-color: black;
+}
+
+@mixin titulocolornegro {background-color: rgb(14, 1, 1);
+    text-align: center;
+    
+}
+h1{@include titulocolornegro;
+    
+}

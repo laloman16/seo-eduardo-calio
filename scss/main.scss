@@ -1,0 +1,29 @@
+@import'./secciones/variables.scss';
+@import'./secciones/mixin.scss';
+@import  './secciones/header.scss ';
+@import './secciones/footer.scss ';
+@import'./secciones/galeria.scss ';
+@import'./secciones/videos.scss';
+@import'./secciones/musica.scss';
+
+@import'./secciones/main1.scss';
+
+
+
+body{
+    background-color: black;
+}
+main p{
+    color: rgb(253, 250, 250);
+    text-align: center;
+    text-align: justify;
+}
+$body:(black);
+$h1:(red);
+body .titulo{color: red;
+    text-align: center;
+}
+
+.bodyblack{ 
+  background-color: black;
+}
